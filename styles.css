@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #ffffff;
+}
+
+header {
+    background: #1f1f1f;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #6c6c6c;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #1f1f1f;
+    border-top: 2px solid #ffffff;
+    color: #a0a0a0;
+}
+
+.certificate-link {
+    display: block;
+    margin-top: 0.5rem;
+    color: #1e90ff;
+}
+
+.certificate-link:hover {
+    text-decoration: underline;
+}
+
+.interactive {
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+}
+
+/* Timeline Section */
+.timeline {
+    position: relative;
+    padding-left: 15px;
+    border-left: 2px solid #ffffff;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #1e90ff;
+    border-radius: 75%;
+}
+
+.timeline-date {
+    font-size: 1rem;
+    color: #a0a0a0;
+}
+
+.timeline-company {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.timeline-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f39c12; /* Change the color as needed */
+}
+
+/* Optional: Hover effect for timeline items */
+.timeline-item:hover .timeline-title {
+    color: #e67e22;
+}
+
+/* Styling for the section headings */
+h3 {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    border-bottom: 2px solid #6c6c6c;
+    padding-bottom: 10px;
+}
+
+/* Styling for the list under Full-Time Internship */
+.timeline-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.timeline-item ul li {
+    margin-bottom: 5px;
+}
